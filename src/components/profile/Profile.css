@@ -46,6 +46,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .profile{
+    height: 100%;
+  }
+
   .bla {
     margin: 45% 5%;
     padding: 0 2rem;
