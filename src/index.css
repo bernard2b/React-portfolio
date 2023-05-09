@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Open+Sans:wght@300;400&family=Oswald:wght@200;300&family=Playfair+Display&family=Roboto:wght@100&family=Source+Code+Pro:wght@200;400&family=Titillium+Web:wght@200;300;400;600;700&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Open+Sans:wght@300;400&family=Oswald:wght@200;300&family=Playfair+Display&family=Roboto:wght@100&family=Source+Code+Pro:wght@200;400&family=Titillium+Web:wght@200;300;400;600;700&family=Ubuntu+Mono:wght@700&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Open+Sans:wght@300;400&family=Oswald:wght@200;300&family=Playfair+Display&family=Red+Hat+Display:wght@500&family=Roboto:wght@100&family=Source+Code+Pro:wght@200;400&family=Titillium+Web:wght@200;300;400;600;700&family=Ubuntu+Mono:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Open+Sans:wght@300;400&family=Oswald:wght@200;300&family=Playfair+Display&family=Roboto:wght@100&family=Source+Code+Pro:wght@200;400&family=Titillium+Web:wght@200;300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Open+Sans:wght@300;400&family=Oswald:wght@200;300&family=Playfair+Display&family=Roboto:wght@100&family=Source+Code+Pro:wght@200;400&family=Titillium+Web:wght@200;300;400;600;700&family=Ubuntu+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Open+Sans:wght@300;400&family=Oswald:wght@200;300&family=Playfair+Display&family=Red+Hat+Display:wght@500&family=Roboto:wght@100&family=Source+Code+Pro:wght@200;400&family=Titillium+Web:wght@200;300;400;600;700&family=Ubuntu+Mono:wght@700&display=swap");
 
-
-*{
+* {
   margin: 0;
   padding: 0;
   border: 0;
@@ -13,7 +12,7 @@
   box-sizing: border-box;
 }
 
-:root{
+:root {
   --color-bg: rgb(133, 127, 127);
   --color-primary: rgb(227, 111, 130);
   --color-secondary: rgba(92, 185, 154, 0.92);
@@ -22,29 +21,24 @@
   --color-white: white;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-h2{
-  font-family: 'Ubuntu Mono', monospace;
+h2 {
+  font-family: "Ubuntu Mono", monospace;
   color: var(--color-third);
 }
 
-h1{
-  font-family: 'Red Hat Display', sans-serif;
+h1 {
+  font-family: "Red Hat Display", sans-serif;
 }
 
-p{
-  font-family: 'Red Hat Display', sans-serif;
+p {
+  font-family: "Red Hat Display", sans-serif;
   color: var(--color-third);
   font-size: 18px;
 }
-
-
-
-
-
 
 /* ===== GENERAL STYLES ===== */
 
@@ -54,14 +48,15 @@ section {
   background-color: var(--color-bg);
 }
 
-a{
+a {
   color: var(--color-primary);
 }
-a:hover{
+
+a:hover {
   color: var(--color-secondary);
 }
 
-.btn{
+.btn {
   width: max-content;
   display: inline-block;
   color: var(--color-third);
@@ -73,7 +68,7 @@ a:hover{
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.btn:hover{
+.btn:hover {
   color: var(--color-bg);
   background: var(--color-third);
   transform: translateY(-8px);
