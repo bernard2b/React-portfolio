@@ -1,0 +1,69 @@
+#profile {
+  height: 100%;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.bla {
+  text-align: left;
+  margin-top: 12%;
+  margin-left: 15%;
+  margin-right: 20%;
+  padding: 0 2rem;
+}
+
+.bla p {
+  margin-top: 7%;
+  margin-bottom: 8%;
+  margin-right: 35%;
+}
+
+.bla .btn {
+  font-size: 1.8rem;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+.big-heading {
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--color-primary);
+  margin: 1rem 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.112);
+}
+
+.big-heading2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--color-secondary);
+  margin: 1rem 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.167);
+}
+
+@media only screen and (max-width: 768px) {
+  .bla {
+    margin: 45% 5%;
+    padding: 0 2rem;
+  }
+
+  .bla p {
+    margin: 7% 0 8% 2%;
+  }
+
+  .bla .btn {
+    font-size: 1.8rem;
+  }
+
+  .big-heading {
+    font-size: 2rem;
+  }
+
+  .big-heading2 {
+    font-size: 2.9rem;
+  }
+}

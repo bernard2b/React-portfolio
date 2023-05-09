@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Open+Sans:wght@300;400&family=Oswald:wght@200;300&family=Playfair+Display&family=Roboto:wght@100&family=Source+Code+Pro:wght@200;400&family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Open+Sans:wght@300;400&family=Oswald:wght@200;300&family=Playfair+Display&family=Roboto:wght@100&family=Source+Code+Pro:wght@200;400&family=Titillium+Web:wght@200;300;400;600;700&family=Ubuntu+Mono:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Open+Sans:wght@300;400&family=Oswald:wght@200;300&family=Playfair+Display&family=Red+Hat+Display:wght@500&family=Roboto:wght@100&family=Source+Code+Pro:wght@200;400&family=Titillium+Web:wght@200;300;400;600;700&family=Ubuntu+Mono:wght@700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root{
+  --color-bg: rgb(133, 127, 127);
+  --color-primary: rgb(227, 111, 130);
+  --color-secondary: rgba(92, 185, 154, 0.92);
+  --color-third: rgb(36, 36, 36);
+  --color-fourth: rgba(92, 185, 154, 0.92);
+  --color-white: white;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+h2{
+  font-family: 'Ubuntu Mono', monospace;
+  color: var(--color-third);
+}
+
+h1{
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+p{
+  font-family: 'Red Hat Display', sans-serif;
+  color: var(--color-third);
+  font-size: 18px;
+}
+
+
+
+
+
+
+/* ===== GENERAL STYLES ===== */
+
+section {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--color-bg);
+}
+
+a{
+  color: var(--color-primary);
+}
+a:hover{
+  color: var(--color-secondary);
+}
+
+.btn{
+  width: max-content;
+  display: inline-block;
+  color: var(--color-third);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-third);
+  transition: var(--transition);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover{
+  color: var(--color-bg);
+  background: var(--color-third);
+  transform: translateY(-8px);
+  border-color: transparent;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  color: var(--color-white);
+}
+
+@media only screen and (max-width: 900px) {
+  section {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--color-bg);
+  }
+}
