@@ -46,28 +46,39 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .profile{
+  .profile {
     height: 100%;
   }
 
   .bla {
-    margin: 45% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     padding: 0 2rem;
+    align-items: center;
   }
 
   .bla p {
     margin: 7% 0 8% 2%;
+    text-align: center;
   }
 
   .bla .btn {
+    margin-top: 2rem;
     font-size: 1.8rem;
   }
 
   .big-heading {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    text-align: center;
   }
 
   .big-heading2 {
     font-size: 2.9rem;
+    text-align: center;
   }
 }

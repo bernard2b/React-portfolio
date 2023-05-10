@@ -15,13 +15,6 @@ const Contact = () => {
           sector. If you believe that I would be a valuable addition to your
           team, please don't hesitate to contact me.
         </p>
-        <a href="mailto:bernard.gyugyi@gmail.com" className="btn">
-          <h1>contact</h1>
-        </a>
-        <div className="rights">
-          <p>Bernard Gyugyi</p>
-          <p>All rights reserved 2023</p>
-        </div>
         <div className="mobile-sites">
           <a
             href="https://www.linkedin.com/in/bernardgyugyi/"
@@ -51,6 +44,12 @@ const Contact = () => {
           >
             <SiHackerrank />
           </a>
+        </div>
+        <a href="mailto:bernard.gyugyi@gmail.com" className="btn">
+          <h1>contact</h1>
+        </a>
+        <div className="rights">
+          <p>Bernard Gyugyi ©</p>
         </div>
       </div>
     </section>

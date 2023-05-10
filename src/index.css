@@ -13,10 +13,10 @@
 }
 
 :root {
-  --color-bg: rgb(133, 127, 127);
-  --color-primary: rgb(227, 111, 130);
-  --color-secondary: rgba(92, 185, 154, 0.92);
-  --color-third: rgb(36, 36, 36);
+  --color-bg: rgb(56, 56, 56);
+  --color-primary: rgb(206, 194, 21);
+  --color-secondary: rgba(255, 255, 255, 0.92);
+  --color-third: rgb(219, 217, 155);
   --color-fourth: rgba(92, 185, 154, 0.92);
   --color-white: white;
 }

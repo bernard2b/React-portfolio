@@ -25,21 +25,21 @@ const About = () => {
           <div className="title">
             <h2>About me</h2>
             <p>
-              Hi, my name is Bernard and I have a passion for software
-              technologies, which is why I decided to change my career path from
-              project management. To pursue my passion, I enrolled in an
-              on-campus bootcamp where I started my new journey and learned the
-              fundamentals of software development.
+              Hi, my name is <span style={{ color: 'rgb(219, 217, 155)' }}>Bernard</span> and I have a passion for <span style={{ color: 'rgb(219, 217, 155)' }}>software
+              technologies</span>, which is why I decided to change my career path from 
+              <span style={{ color: 'rgb(219, 217, 155)' }}> project management.</span> To pursue my passion, I enrolled in an
+              <span style={{ color: 'rgb(219, 217, 155)' }}> on-campus bootcamp</span> where I started my new journey and learned the
+              fundamentals of <span style={{ color: 'rgb(219, 217, 155)' }}>software development</span>.
             </p>
             <p>
               After successfully completing a high-paced bootcamp, my next
-              challenge is to prove that I have what it takes to be a valuable
-              member of a development team and contribute to creating complex
-              projects.
+              challenge is to prove that I have what it takes to be <span style={{ color: 'rgb(219, 217, 155)' }}>a valuable
+              member of a development team </span>and contribute to creating <span style={{ color: 'rgb(219, 217, 155)' }}>complex
+              projects</span>.
             </p>
             <p>
-              I am excited to take on this challenge and in the meantime, I will
-              continue to develop my skills and knowledge in the field of
+              I am excited to take on this <span style={{ color: 'rgb(219, 217, 155)' }}>challenge</span> and in the meantime, <span style={{ color: 'rgb(219, 217, 155)' }}>I will
+              continue to develop my skills</span> and knowledge in the field of
               software development.
             </p>
           </div>

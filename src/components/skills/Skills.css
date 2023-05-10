@@ -2,12 +2,16 @@
   height: 100%;
 }
 
-#skills .skill_text {
-  margin-left: 17%;
-  margin-right: 27%;
+#skills .skill_text{
+  margin-left: 15rem;
+  margin-right: 17rem;
   margin-bottom: 2rem;
-  border: 1px solid var(--color-secondary);
   padding: 1rem;
+}
+
+.skill_text p{
+  color: var(--color-primary);
+  margin-top: 1rem;
 }
 
 .cards-container {
@@ -31,6 +35,8 @@
   justify-content: center;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
   border-radius: 8px;
   padding: 20px;
   transition: transform 0.2s ease;
@@ -40,8 +46,8 @@
   transform: scale(1.05);
   cursor: pointer;
   background-color: var(--color-third);
-  color: var(--color-primary);
-  border: 1px solid var(--color-secondary);
+  color: var(--color-bg);
+  border: 1px solid var(--color-primary);
 }
 
 .logo {
@@ -64,9 +70,9 @@
 }
 
 .modal-content {
-  background-color: var(--color-secondary);
+  background-color: var(--color-bg);
   color: rgba(255, 255, 255, 0) !important;
-  width: 90%;
+  width: 70%;
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -80,6 +86,7 @@
     max-width: fit-content;
     margin-left: 1rem;
     margin-right: 1rem;
+    text-align: center;
   }
 
   .cards-container {
@@ -89,5 +96,9 @@
   #skills {
     height: 100%;
     width: 100%;
+  }
+
+  .cards .title{
+    display: none;
   }
 }

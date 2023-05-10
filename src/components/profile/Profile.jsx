@@ -11,7 +11,7 @@ const Profile = () => {
         <div className="bla">
           <h2>Hi, my name is</h2>
           <h1 className="big-heading">Bernard Gyugyi.</h1>
-          <h1 className="big-heading2">Junior Full-Stack Developer</h1>
+          <h1 className="big-heading2">Full-Stack Developer</h1>
           <p>
             I'm junior software engineer, focused on full stack development.
             Constantly educating myself and seeking opportunities for

@@ -16,15 +16,27 @@
 
 .final_title {
   margin-bottom: 2rem;
+  color: var(--color-primary);
 }
 
 .final .btn {
   margin-top: 4rem;
   margin-bottom: 4rem;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
 }
 
-.rights {
+.final .btn:hover {
+  color: var(--color-bg);
+  background: var(--color-primary);
+}
+
+.rights{
   padding-top: 2rem;
+}
+
+.rights p {
+  color: var(--color-white);
 }
 
 .mobile-sites {
@@ -36,21 +48,16 @@
     margin: 5rem 4rem;
   }
 
-  .rights {
-    margin-bottom: 4rem;
-  }
-
   .mobile-sites {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 4rem;
     font-size: 45px;
   }
 
   .mobile-sites a {
-    color: var(--color-secondary);
+    color: var(--color-primary);
   }
 }
