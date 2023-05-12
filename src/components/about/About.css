@@ -1,4 +1,4 @@
-#about{
+#about {
   height: auto;
 }
 
@@ -20,18 +20,16 @@
 
 .title h2 {
   margin-bottom: 2rem;
-  color: var(--color-bg)
-}
-
-.title p {
-  margin-bottom: 1rem;
-  color: var(--color-bg)
+  color: var(--color-bg);
 }
 
 img {
   width: 310px;
   height: 465px;
   object-fit: contain;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
 .photo {
@@ -58,11 +56,11 @@ img {
 }
 
 .title p {
-  color: var(--color-primary);
+  color: var(--color-third);
   margin-bottom: 10px;
 }
 
-.title h2{
+.title h2 {
   color: var(--color-primary);
 }
 
@@ -71,20 +69,19 @@ img {
 }
 
 .photo {
-width: 250px;
-height: 100%;
-margin-left: auto;
-margin-right: auto;
-box-shadow: none;
-margin-top: 1rem;
-margin-bottom: 3rem;
-display: flex;
-justify-content: center;
-align-items: center;
+  width: 250px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: none;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 768px) {
-  
   .abc {
     grid-template-columns: 1fr;
     margin-left: auto;
@@ -100,13 +97,13 @@ align-items: center;
     text-align: center;
     background: none;
   }
-  
+
   .title p {
-    color: var(--color-primary);
+    color: var(--color-third);
     margin-bottom: 10px;
   }
 
-  .title h2{
+  .title h2 {
     color: var(--color-primary);
   }
 
@@ -115,15 +112,19 @@ align-items: center;
   }
 
   .photo {
-  width: 250px;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: none;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 250px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img{
+    box-shadow: none;
   }
 }

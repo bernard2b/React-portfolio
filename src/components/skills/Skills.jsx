@@ -102,16 +102,16 @@ const FrameworksList = () => {
       <section id="skills">
         <div className="skill_text">
         <p>
-          One of the highlights of the bootcamp was our <span style={{ color: 'rgb(219, 217, 155)' }}> team project</span>, where we
-          collaboratively developed <span style={{ color: 'rgb(219, 217, 155)' }}>a web application game </span>. This experience
-          allowed me to <span style={{ color: 'rgb(219, 217, 155)' }}>work closely with a team</span>, fostering <span style={{ color: 'rgb(219, 217, 155)' }}>effective
+          One of the highlights of the bootcamp was our <span style={{ color: 'rgb(206, 194, 21)' }}> team project</span>, where we
+          collaboratively developed <span style={{ color: 'rgb(206, 194, 21)' }}>a web application game </span>. This experience
+          allowed me to <span style={{ color: 'rgb(206, 194, 21)' }}>work closely with a team</span>, fostering <span style={{ color: 'rgb(206, 194, 21)' }}>effective
           communication and coordination</span>.</p>
           <p>
            Additionally, I had the opportunity to
-          explore and <span style={{ color: 'rgb(219, 217, 155)' }}>gain proficiency in various new technologies</span>, further
-          expanding <span style={{ color: 'rgb(219, 217, 155)' }}>my skillset</span>. Working on this project was a valuable and
-          exciting experience that not only <span style={{ color: 'rgb(219, 217, 155)' }}>strengthened my technical abilities</span>
-          but also taught me the <span style={{ color: 'rgb(219, 217, 155)' }}>importance of teamwork</span> in software development.
+          explore and <span style={{ color: 'rgb(206, 194, 21)' }}>gain proficiency in various new technologies</span>, further
+          expanding my skillset. Working on this project was a valuable and
+          exciting experience that not only <span style={{ color: 'rgb(206, 194, 21)' }}>strengthened my technical abilities </span>
+          but also taught me the <span style={{ color: 'rgb(206, 194, 21)' }}>importance of teamwork</span> in software development.
         </p>
         </div>
         <div className="cards">
