@@ -1,7 +1,7 @@
 import React from "react";
 import "./Profile.css";
 import Header from "../header/Header";
-import CV from "../../assets/bernard1.pdf";
+import CV from "../../assets/BernardGyugyiCV.pdf";
 
 const Profile = () => {
   return (
