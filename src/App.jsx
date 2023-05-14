@@ -3,6 +3,8 @@ import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
 import Contact from "./components/contact/Contact";
 import Profile from "./components/profile/Profile";
+import { Analytics } from '@vercel/analytics/react';
+
 
 export const App = () => {
   return (
@@ -11,6 +13,7 @@ export const App = () => {
       <About />
       <Skills />
       <Contact />
+      <Analytics />
     </>
   );
 };
