@@ -21,13 +21,13 @@ const frameworks = [
     name: "JavaScript",
     logo: <SiJavascript />,
     experience: "Bootcamp",
-    description: "A TypeScript-based open-source web application framework.",
+    description: "JavaScript, is a programming language that is one of the core technologies of the World Wide Web.",
   },
   {
     name: "TypeScript",
     logo: <SiTypescript />,
     experience: "Side project",
-    description: "A progressive framework for building user interfaces.",
+    description: "TypeScript is a strongly typed programming language that builds on JavaScrip. It is a superset of JavaScript.",
   },
   {
     name: "Node.Js",
@@ -40,7 +40,7 @@ const frameworks = [
     name: "Git",
     logo: <BsGit />,
     experience: "Work",
-    description: "A TypeScript-based open-source web application framework.",
+    description: "Git is a distributed version control system that tracks changes in any set of computer files.",
   },
   {
     name: "Java",
